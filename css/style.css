@@ -17,11 +17,17 @@ h1 {
   font-size: 2.5rem;
 }
 
+h2 {
+  margin: 0 0 0.4rem;
+}
+
 footer {
   text-align: center;
 }
 
 select {
+  display: block;
+  font-size: 18px;
   border-radius: 5px;
   width: 85%;
   padding: 0.5rem;
@@ -51,4 +57,26 @@ select:focus {
 .btn-container {
   padding: 3px;
   margin-left: 15px;
+}
+
+/* CSS Styles for the cities */
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.time {
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.time small {
+  font-size: 0.8rem;
+  vertical-align: middle;
+  margin-left: 0.5rem;
 }
