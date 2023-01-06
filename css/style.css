@@ -12,8 +12,9 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 h1 {
+  font-family: "Share Tech Mono", monospace;
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 footer {
@@ -21,6 +22,7 @@ footer {
 }
 
 select {
+  border-radius: 5px;
   width: 85%;
   padding: 0.5rem;
 }
@@ -41,7 +43,7 @@ select:focus {
 
 .selection-container {
   margin: 0 auto;
-  width: 70%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
 }
