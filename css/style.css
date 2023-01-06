@@ -20,12 +20,33 @@ footer {
   text-align: center;
 }
 
+select {
+  width: 85%;
+  padding: 0.5rem;
+}
+
+select:focus {
+  outline: none;
+}
+
 /* CSS Styles for classes */
 .clock-container {
-  max-width: 700px;
+  max-width: 600px;
   margin: 5rem auto 2rem;
   background: rgba(255, 255, 255, 0.1);
   box-shadow: 13px 12px 20px 5px rgba(15, 5, 2, 0.2);
   border-radius: 10px;
   padding: 4.2rem 2rem;
+}
+
+.selection-container {
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+/* Reset button */
+.btn-container {
+  padding: 3px;
+  margin-left: 15px;
 }
