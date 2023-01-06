@@ -3,12 +3,13 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background-image: linear-gradient(rgba(77, 71, 71, 0.527), rgba(0, 0, 0, 0.2)),
+  background-image: linear-gradient(rgba(41, 38, 38, 0.527), rgba(0, 0, 0, 0.2)),
     url("../images/clock-bg-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   overflow-x: hidden;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 h1 {
   text-align: center;
@@ -24,6 +25,7 @@ footer {
   max-width: 700px;
   margin: 5rem auto 2rem;
   background: rgba(255, 255, 255, 0.1);
+  box-shadow: 13px 12px 20px 5px rgba(15, 5, 2, 0.2);
   border-radius: 10px;
   padding: 4.2rem 2rem;
 }
