@@ -39,7 +39,7 @@ select:focus {
 
 /* CSS Styles for classes */
 .clock-container {
-  max-width: 600px;
+  max-width: 700px;
   margin: 5rem auto 2rem;
   background: rgba(255, 255, 255, 0.1);
   box-shadow: 13px 12px 20px 5px rgba(15, 5, 2, 0.2);
@@ -73,6 +73,7 @@ select:focus {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 5rem;
 }
 
 .time small {
