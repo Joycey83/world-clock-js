@@ -20,6 +20,7 @@ h1 {
 h2 {
   font-size: 1.5rem;
   margin: 0 0 0.4rem;
+  padding: 3px 0;
 }
 
 footer {
@@ -65,7 +66,13 @@ select:focus {
 .city {
   display: flex;
   justify-content: space-between;
-  margin: 20px 0;
+  margin: 1.5rem auto 0;
+  padding: 20px 0;
+  border-bottom: 2px solid rgba(20, 4, 78, 0.2);
+}
+
+.city:last-child {
+  border: none;
 }
 
 .time {
@@ -81,4 +88,8 @@ select:focus {
   font-size: 0.8rem;
   vertical-align: middle;
   margin-left: 0.5rem;
+}
+
+.date {
+  opacity: 0.7;
 }
