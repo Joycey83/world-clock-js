@@ -3,15 +3,16 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background-image: url("../images/clock-bg-image.jpg");
+  background-image: linear-gradient(rgba(77, 71, 71, 0.527), rgba(0, 0, 0, 0.2)),
+    url("../images/clock-bg-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  filter: brightness(70%);
   overflow-x: hidden;
 }
 h1 {
   text-align: center;
+  font-size: 2rem;
 }
 
 footer {
@@ -22,5 +23,7 @@ footer {
 .clock-container {
   max-width: 700px;
   margin: 5rem auto 2rem;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 4.2rem 2rem;
 }
