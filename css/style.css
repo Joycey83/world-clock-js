@@ -1,1 +1,20 @@
+/* CSS Styles for Elements */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-image: url("../images/clock-bg-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow-x: hidden;
+}
+h1 {
+  text-align: center;
+}
 
+/* CSS Styles for classes */
+.clock-container {
+  max-width: 700px;
+  margin: 5rem auto 2rem;
+}
