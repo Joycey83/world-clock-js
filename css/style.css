@@ -7,9 +7,14 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  filter: brightness(70%);
   overflow-x: hidden;
 }
 h1 {
+  text-align: center;
+}
+
+footer {
   text-align: center;
 }
 
