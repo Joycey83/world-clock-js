@@ -63,6 +63,9 @@ const updateCityTime = function () {
 // City option Selector
 const updateCityOption = function (event) {
   let multiCityTimeZoneOption = event.target.value;
+  if (multiCityTimeZoneOption === "current") {
+    multiCityTimeZoneOption = moment.tz.guess();
+  }
   let cityName = multiCityTimeZoneOption.replace("_", " ").split("/")[1];
   let cityTimeDate = moment().tz(multiCityTimeZoneOption);
   let citiesElement = document.querySelector("#city-container");
