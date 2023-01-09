@@ -66,7 +66,7 @@ const updateCityOption = function (event) {
   let cityName = multiCityTimeZoneOption.replace("_", " ").split("/")[1];
   let cityTimeDate = moment().tz(multiCityTimeZoneOption);
   let citiesElement = document.querySelector("#city-container");
-  citiesElement.innerHTML += `
+  citiesElement.innerHTML = `
   <div class="city">
             <div>
               <h2>${cityName}</h2>
