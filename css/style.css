@@ -94,3 +94,32 @@ select:focus {
   opacity: 0.5;
   color: aqua;
 }
+
+/* Icons */
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+  font-size: 50px;
+  transition: all 200ms ease-in-out;
+}
+
+.material-symbols-outlined:hover {
+  transform: rotate(360deg);
+}
+
+.theme-btn {
+  position: relative;
+  top: -50px;
+  right: 10px;
+  background-color: transparent;
+  color: rgb(17, 17, 102);
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: none;
+  transition: all 200ms ease-in-out;
+}
+
+.theme-btn:hover {
+  color: rgb(70, 17, 120);
+  cursor: pointer;
+}
