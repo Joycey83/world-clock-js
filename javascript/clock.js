@@ -1,52 +1,89 @@
+// Time and second
 const updateCityTime = function () {
   // Hong Kong Local Time Zone (Asia)
   let hongKong = document.querySelector("#hong-kong");
-  let hongKongDate = hongKong.querySelector(".date");
-  let hongKongTime = hongKong.querySelector(".time");
+  if (hongKong) {
+    let hongKongDate = hongKong.querySelector(".date");
+    let hongKongTime = hongKong.querySelector(".time");
 
-  let HongKongTimeElement = moment().tz("Asia/Hong_Kong");
+    let HongKongTimeElement = moment().tz("Asia/Hong_Kong");
 
-  hongKongDate.innerHTML = HongKongTimeElement.format("Do MMMM YYYY");
-  hongKongTime.innerHTML = HongKongTimeElement.format(
-    "H:mm:ss [<small>]A[</small>]"
-  );
+    hongKongDate.innerHTML = HongKongTimeElement.format("Do MMMM YYYY");
+    hongKongTime.innerHTML = HongKongTimeElement.format(
+      "HH:mm:ss [<small>]A[</small>]"
+    );
+  }
 
   // Louisville Local Time Zone (America)
 
   let louisville = document.querySelector("#louisville");
-  let louisvilleDate = louisville.querySelector(".date");
-  let louisvilleTime = louisville.querySelector(".time");
+  if (louisville) {
+    let louisvilleDate = louisville.querySelector(".date");
+    let louisvilleTime = louisville.querySelector(".time");
 
-  let louisvilleTimeElement = moment().tz("America/Kentucky/Louisville");
+    let louisvilleTimeElement = moment().tz("America/Kentucky/Louisville");
 
-  louisvilleDate.innerHTML = louisvilleTimeElement.format("Do MMMM YYYY");
-  louisvilleTime.innerHTML = louisvilleTimeElement.format(
-    "H:mm:ss [<small>]A[</small>]"
-  );
+    louisvilleDate.innerHTML = louisvilleTimeElement.format("Do MMMM YYYY");
+    louisvilleTime.innerHTML = louisvilleTimeElement.format(
+      "HH:mm:ss [<small>]A[</small>]"
+    );
+  }
 
   // Rome Local Time Zone (Europe)
 
   let rome = document.querySelector("#rome");
-  let romeDate = rome.querySelector(".date");
-  let romeTime = rome.querySelector(".time");
+  if (rome) {
+    let romeDate = rome.querySelector(".date");
+    let romeTime = rome.querySelector(".time");
 
-  let romeTimeElement = moment().tz("Europe/Rome");
+    let romeTimeElement = moment().tz("Europe/Rome");
 
-  romeDate.innerHTML = romeTimeElement.format("Do MMMM YYYY");
-  romeTime.innerHTML = romeTimeElement.format("H:mm:ss [<small>]A[</small>]");
+    romeDate.innerHTML = romeTimeElement.format("Do MMMM YYYY");
+    romeTime.innerHTML = romeTimeElement.format(
+      "HH:mm:ss [<small>]A[</small>]"
+    );
+  }
 
   // Johannesburg Local Time Zone (Africa)
 
   let johannesburg = document.querySelector("#johannesburg");
-  let johannesburgDate = johannesburg.querySelector(".date");
-  let johannesburgTime = johannesburg.querySelector(".time");
+  if (johannesburg) {
+    let johannesburgDate = johannesburg.querySelector(".date");
+    let johannesburgTime = johannesburg.querySelector(".time");
 
-  let johannesburgTimeElement = moment().tz("Africa/Johannesburg");
+    let johannesburgTimeElement = moment().tz("Africa/Johannesburg");
 
-  johannesburgDate.innerHTML = johannesburgTimeElement.format("Do MMMM YYYY");
-  johannesburgTime.innerHTML = johannesburgTimeElement.format(
-    "H:mm:ss [<small>]A[</small>]"
-  );
+    johannesburgDate.innerHTML = johannesburgTimeElement.format("Do MMMM YYYY");
+    johannesburgTime.innerHTML = johannesburgTimeElement.format(
+      "HH:mm:ss [<small>]A[</small>]"
+    );
+  }
 };
+
+// City option Selector
+const updateCityOption = function (event) {
+  let multiCityTimeZoneOption = event.target.value;
+  let cityName = multiCityTimeZoneOption.replace("_", " ").split("/")[1];
+  let cityTimeDate = moment().tz(multiCityTimeZoneOption);
+  let citiesElement = document.querySelector("#city-container");
+  citiesElement.innerHTML = `
+  <div class="city">
+            <div>
+              <h2>${cityName}</h2>
+              <div class="date">${cityTimeDate.format("Do MMMM YYYY")}</div>
+            </div>
+            <div class="time">${cityTimeDate.format(
+              "HH:mm:ss"
+            )}<small>${cityTimeDate.format("A")}</small></div>
+          </div>
+  
+  
+  
+  `;
+};
+
 updateCityTime();
 setInterval(updateCityTime, 1000);
+
+let cityOptionSelect = document.querySelector("#city-option");
+cityOptionSelect.addEventListener("change", updateCityOption);
