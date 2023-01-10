@@ -65,9 +65,9 @@ let differentCityImage = document.querySelector("#city-option");
 
 const getCityImage = function () {
   let mixCityImages = [
-    "./images/city-image-1.jpg",
-    "./images/city-image-2.jpg",
-    "./images/city-image-3.jpg",
+    "../images/city-image-1.jpg",
+    "../images/city-image-2.jpg",
+    "../images/city-image-3.jpg",
   ];
 
   let randomImageNumber = Math.floor(Math.random() * 3);
