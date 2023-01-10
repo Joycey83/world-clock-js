@@ -204,7 +204,5 @@ select:focus {
 
 .city-image {
   width: 40%;
-  height: auto;
   margin: 20px auto;
-  text-align: center;
 }
