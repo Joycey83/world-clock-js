@@ -3,8 +3,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background-image: linear-gradient(rgba(41, 38, 38, 0.527), rgba(0, 0, 0, 0.2)),
-    url("../images/clock-bg-image.jpg");
+  background-image: url("../images/clock-bg-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
