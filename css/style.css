@@ -9,6 +9,11 @@ body {
   background-position: center center;
   overflow-x: hidden;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  mix-blend-mode: hue;
+}
+
+body:hover {
+  cursor: pointer;
 }
 
 h1 {
@@ -210,4 +215,13 @@ select:focus {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+/* Changing Color image of Bg CSS Styles */
+
+/* The width and height of the rgba() color layer */
+#color-mix-bg {
+  position: relative;
+  top: 0;
+  width: 100%;
+  min-height: 100vh;
 }
