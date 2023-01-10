@@ -139,14 +139,3 @@ dark_mode
 themeModeBtn.addEventListener("click", changeTheme);
 
 // Changing random color function for the bg using random Rgba() number 255
-
-let bodyElement = document.querySelector("#color-mix-bg");
-let rgbaNum = 255;
-const randomColor = function () {
-  return Math.floor(Math.random() * rgbaNum);
-};
-
-bodyElement.addEventListener("click", () => {
-  bodyElement.style.backgroundColor =
-    "rgba(" + randomColor() + ", " + randomColor() + ", " + randomColor() + ")";
-});

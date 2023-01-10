@@ -9,11 +9,6 @@ body {
   background-position: center center;
   overflow-x: hidden;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  mix-blend-mode: hue;
-}
-
-body:hover {
-  cursor: pointer;
 }
 
 h1 {
@@ -54,6 +49,7 @@ select:focus {
   box-shadow: 13px 12px 20px 5px rgba(15, 5, 2, 0.2);
   border-radius: 10px;
   padding: 4.2rem 2rem;
+  z-index: 1000;
 }
 
 .selection-container {
