@@ -2,13 +2,18 @@
 body {
   margin: 0;
   padding: 0;
-  min-height: 100vh;
-  background-image: url("../images/clock-bg-image.jpg");
+  height: 100vh;
+  background-image: url("../images/testing-3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   overflow-x: hidden;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  mix-blend-mode: hue;
+}
+
+body:hover {
+  cursor: pointer;
 }
 
 h1 {
@@ -215,9 +220,11 @@ select:focus {
 /* Changing Color image of Bg CSS Styles */
 
 /* The width and height of the rgba() color layer */
+/*  */
+
 #color-mix-bg {
-  position: relative;
+  position: absolute;
   top: 0;
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
 }
