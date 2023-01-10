@@ -90,3 +90,22 @@ setInterval(updateCityTime, 1000);
 
 let cityOptionSelect = document.querySelector("#city-option");
 cityOptionSelect.addEventListener("change", updateCityOption);
+
+// Theme Button
+let themeModeBtn = document.querySelector("#theme-button");
+let themeModeElement = document.querySelector(".clock-container");
+
+function changeTheme() {
+  if (themeModeElement.classList.contains("dark")) {
+    themeModeElement.classList.remove("dark");
+    themeModeBtn.innerHTML = `<span class="material-symbols-outlined">
+dark_mode
+</span>`;
+  } else {
+    themeModeElement.classList.add("dark");
+    themeModeBtn.innerHTML = `<span class="material-symbols-outlined">
+    lightbulb
+        </span>`;
+  }
+}
+themeModeBtn.addEventListener("click", changeTheme);

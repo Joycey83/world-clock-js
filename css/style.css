@@ -93,8 +93,8 @@ select:focus {
 }
 
 .date {
-  opacity: 0.5;
-  color: aqua;
+  opacity: 0.8;
+  color: #36454f;
 }
 
 /* Google Font material Icons */
@@ -138,4 +138,56 @@ select:focus {
 
 .reset-btn:hover {
   background: rgb(70, 17, 120);
+}
+/* Theme mode CSS Styles */
+
+.dark {
+  background: #000;
+  color: #9e1142;
+}
+
+.dark a {
+  color: #1f9fbb;
+}
+
+.dark:hover {
+  color: #9e1142;
+}
+
+.dark .material-symbols-outlined {
+  color: #772445;
+}
+
+.dark .reset-icon {
+  color: #000;
+}
+
+.dark .reset-icon:hover {
+  color: whitesmoke;
+}
+
+.dark .reset-btn {
+  background-color: #772445;
+}
+
+.dark .reset-btn:hover {
+  background-color: #a7267a;
+}
+
+.dark .date {
+  color: aqua;
+}
+
+.dark .city {
+  border-bottom: 2px solid rgba(255, 219, 47, 0.5);
+}
+
+.dark select {
+  background-color: #000;
+  color: #1f9fbb;
+  border: 3px solid #772445;
+}
+
+.dark select:focus {
+  border: 3px solid #e08b18;
 }
