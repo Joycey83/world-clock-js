@@ -68,9 +68,11 @@ const getCityImage = function () {
     "../images/city-image-1.jpg",
     "../images/city-image-2.jpg",
     "../images/city-image-3.jpg",
+    "../images/city-image-4.jpg",
+    "../images/city-image-5.jpg",
   ];
 
-  let randomImageNumber = Math.floor(Math.random() * 3);
+  let randomImageNumber = Math.floor(Math.random() * 5) + 1;
   return mixCityImages[randomImageNumber];
 };
 
