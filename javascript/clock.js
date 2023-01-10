@@ -70,9 +70,20 @@ const getCityImage = function () {
     "../images/city-image-3.jpg",
     "../images/city-image-4.jpg",
     "../images/city-image-5.jpg",
+    "../images/city-image-6.jpg",
+    "../images/city-image-7.jpg",
+    "../images/city-image-8.jpg",
+    "../images/city-image-9.jpg",
+    "../images/city-image-10.jpg",
+    "../images/city-image-11.jpg",
+    "../images/city-image-12.jpg",
+    "../images/city-image-13.jpg",
+    "../images/city-image-14.jpg",
+    "../images/city-image-15.jpg",
+    "../images/city-image-16.jpg",
   ];
 
-  let randomImageNumber = Math.floor(Math.random() * 5) + 1;
+  let randomImageNumber = Math.floor(Math.random() * 16);
   return mixCityImages[randomImageNumber];
 };
 
