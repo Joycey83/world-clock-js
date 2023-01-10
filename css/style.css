@@ -122,7 +122,7 @@ select:focus {
 }
 
 .theme-btn:hover {
-  color: rgb(70, 17, 120);
+  color: #9a1f0c;
   cursor: pointer;
 }
 /* Restart Button */
@@ -137,7 +137,7 @@ select:focus {
 }
 
 .reset-btn:hover {
-  background: rgb(70, 17, 120);
+  background: #b0230d;
 }
 /* Theme mode CSS Styles */
 
@@ -158,12 +158,16 @@ select:focus {
   color: #772445;
 }
 
+.dark .material-symbols-outlined:hover {
+  color: #dfcf12;
+}
+
 .dark .reset-icon {
   color: #000;
 }
 
 .dark .reset-icon:hover {
-  color: whitesmoke;
+  color: #000;
 }
 
 .dark .reset-btn {
@@ -171,7 +175,7 @@ select:focus {
 }
 
 .dark .reset-btn:hover {
-  background-color: #a7267a;
+  background-color: #fdda0d;
 }
 
 .dark .date {
@@ -179,7 +183,11 @@ select:focus {
 }
 
 .dark .city {
-  border-bottom: 2px solid rgba(255, 219, 47, 0.5);
+  border-bottom: 2px solid #dfcf12;
+}
+
+.dark .city:last-child {
+  border: none;
 }
 
 .dark select {
@@ -190,4 +198,13 @@ select:focus {
 
 .dark select:focus {
   border: 3px solid #e08b18;
+}
+
+/* Generate random images for selected Cities CSS Style */
+
+.city-image {
+  width: 40%;
+  height: auto;
+  margin: 2rem 2rem 0 2rem;
+  text-align: center;
 }

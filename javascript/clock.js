@@ -59,6 +59,20 @@ const updateCityTime = function () {
     );
   }
 };
+// Random City Image Function
+
+let differentCityImage = document.querySelector("#city-option");
+
+const getCityImage = function () {
+  let mixCityImages = [
+    "./images/city-image-1.jpg",
+    "./images/city-image-2.jpg",
+    "./images/city-image-3.jpg",
+  ];
+
+  let randomImageNumber = Math.floor(Math.random() * 3);
+  return mixCityImages[randomImageNumber];
+};
 
 // City option Selector
 const updateCityOption = function (event) {
@@ -79,6 +93,7 @@ const updateCityOption = function (event) {
               "HH:mm:ss"
             )}<small>${cityTimeDate.format("A")}</small></div>
           </div>
+          <img src="${getCityImage()}" alt="Mixed City Images" class="city-image">
   
   
   
