@@ -228,3 +228,8 @@ select:focus {
   width: 100%;
   mix-blend-mode: hue;
 }
+/* Switch Color Button */
+.switch-btn {
+  padding: 20px;
+  margin: 10px;
+}

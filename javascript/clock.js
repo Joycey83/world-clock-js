@@ -150,3 +150,26 @@ bodyElement.addEventListener("click", () => {
   bodyElement.style.backgroundColor =
     "rgba(" + randomColor() + ", " + randomColor() + ", " + randomColor() + ")";
 });
+
+// Switch bg color
+
+let randoColor = [
+  "#3D1766",
+  "#FEC868",
+  "#0081C9",
+  "#FF7B54",
+  "#2DCDDF",
+  "#9D3C72",
+  "#850000",
+  "#ADA2FF",
+  "#439A97",
+  "#F8F988",
+];
+let i = 0;
+const switchRandoColors = function () {
+  i = i < randoColor.length ? ++i : 0;
+  document.querySelector("body").style.backgroundColor = randoColor[i];
+};
+
+let switchBtn = document.querySelector("#switch");
+switchBtn.addEventListener("click", switchRandoColors);
