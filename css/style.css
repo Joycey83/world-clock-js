@@ -2,14 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  height: 100vh;
-  background-image: url("../images/testing-3.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  overflow-x: hidden;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  mix-blend-mode: hue;
 }
 
 body:hover {
@@ -221,10 +214,17 @@ select:focus {
 
 /* The width and height of the rgba() color layer */
 /*  */
-
-#color-mix-bg {
-  /* position: absolute; */
-
+.mix-color {
+  position: relative;
+  height: 600px;
   width: 100%;
-  height: 100vh;
+  overflow: hidden;
+}
+
+#color {
+  position: absolute;
+  top: 0;
+  height: 600px;
+  width: 100%;
+  mix-blend-mode: hue;
 }
