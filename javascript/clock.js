@@ -164,6 +164,11 @@ let randoColor = [
   "#ADA2FF",
   "#439A97",
   "#F8F988",
+  "#FF7000",
+  "#BCEAD5",
+  "#2146C7",
+  "#BCCEF8",
+  "#A66CFF",
 ];
 let i = 0;
 const switchRandoColors = function () {
