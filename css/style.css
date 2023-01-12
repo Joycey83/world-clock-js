@@ -21,10 +21,6 @@ h2 {
   padding: 3px 0;
 }
 
-footer {
-  text-align: center;
-}
-
 select {
   display: block;
   font-size: 18px;
@@ -268,4 +264,26 @@ button.switch-btn {
   60% {
     transform: translate3d(4px, 0, 0);
   }
+}
+
+/* Footer  */
+footer {
+  background: #1b1212;
+  color: #fff5ee;
+  font-size: 18px;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 15px 15px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.github {
+  color: #a0325e;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.github:hover {
+  color: #d2042d;
 }
