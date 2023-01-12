@@ -200,7 +200,7 @@ select:focus {
 }
 
 .dark .city-image:hover {
-  box-shadow: -7px 4px 27px rgba(116, 16, 57, 0.4);
+  box-shadow: -7px 4px 27px rgba(255, 0, 0, 0.4);
 }
 
 /* Generate random images for selected Cities CSS Style */
