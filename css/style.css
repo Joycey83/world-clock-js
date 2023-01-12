@@ -3,7 +3,7 @@ body,
 html {
   margin: 0;
   padding: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Lilita One", cursive;
   overflow-x: hidden;
 }
 
@@ -12,7 +12,7 @@ body:hover {
 }
 
 h1 {
-  font-family: "Share Tech Mono", monospace;
+  font-family: "Orbitron", sans-serif;
   text-align: center;
   font-size: 2.5rem;
 }
@@ -24,6 +24,7 @@ h2 {
 }
 
 select {
+  font-family: "Lilita One", cursive;
   display: block;
   font-size: 18px;
   border-radius: 5px;
@@ -231,6 +232,7 @@ select:focus {
 }
 /* Switch Color Button */
 button.switch-btn {
+  font-family: "Lilita One", cursive;
   border-radius: 4px;
   background: #1b1212;
   color: aliceblue;
