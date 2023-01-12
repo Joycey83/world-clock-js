@@ -298,9 +298,87 @@ footer {
 .social-media:hover {
   color: #d2042d;
 }
-/********************************************************/
 
-/******** Media Queries *******/
+/************************************************************************************/
+/******** Media Queries for Most Popular Mobile and tablet devices *******/
+@media (max-width: 768px) {
+}
+/***** Mobile devices e.g: Iphone XR *****/
+@media (max-width: 414px) {
+  .mix-color {
+    position: relative;
+    width: 100%;
+    height: 250px;
+  }
+
+  #color {
+    /* position: absolute; */
+    /* top: 0; */
+    width: 100%;
+    height: 250px;
+  }
+
+  button.switch-btn {
+    font-size: 12px;
+    padding: 8px;
+  }
+  .clock-container {
+    position: relative;
+    left: 0;
+    margin: 8px;
+    overflow: hidden;
+  }
+  h2 {
+    font-size: 0.9rem;
+    margin: 0 0 0.3rem;
+    padding: 2px 0;
+  }
+
+  select {
+    font-size: 14px;
+    border-radius: 5px;
+    border: 2px solid #9e1142;
+    width: 85%;
+    padding: 0.2rem;
+  }
+
+  .time {
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin: 0 auto;
+  }
+
+  .time small {
+    font-size: 0.4rem;
+    margin-left: 0.5rem;
+  }
+
+  .date {
+    font-size: 10px;
+  }
+
+  footer {
+    font-size: 10px;
+    max-width: 320px;
+    padding: 3px 3px;
+    border-radius: 30px;
+    text-align: center;
+  }
+
+  .hosting-service {
+    font-size: 10px;
+  }
+
+  .social-media {
+    font-size: 10px;
+  }
+
+  .material-symbols-outlined {
+    font-size: 30px;
+  }
+}
+
+/***** Mobile devices e.g: Samsung S20 *****/
 @media (max-width: 412px) {
   .mix-color {
     position: relative;
