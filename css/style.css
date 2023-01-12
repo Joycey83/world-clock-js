@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
 }
 
 body:hover {
@@ -45,7 +46,6 @@ select:focus {
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   border-radius: 10px;
   padding: 4.2rem 2rem;
-  z-index: 1;
 }
 
 .selection-container {
@@ -266,7 +266,7 @@ button.switch-btn {
   }
 }
 
-/* Footer  */
+/* Footer CSS Styles */
 footer {
   background: #1b1212;
   color: #fff5ee;
@@ -296,4 +296,94 @@ footer {
 
 .social-media:hover {
   color: #d2042d;
+}
+
+/* Media Queries */
+
+@media (max-width: 320px) {
+  .mix-color {
+    position: relative;
+    width: 110%;
+    height: 250px;
+  }
+
+  #color {
+    /* position: absolute; */
+    /* top: 0; */
+    width: 110%;
+    height: 250px;
+  }
+
+  button.switch-btn {
+    position: relative;
+    left: 0;
+    font-size: 16px;
+    padding: 5px;
+  }
+
+  .clock-container {
+    display: block;
+    margin: 10px auto;
+    margin: 0 10px;
+    max-width: 600px;
+    border-radius: 10px;
+    padding: 1rem 1rem;
+  }
+
+  .theme-btn {
+    top: -10px;
+    right: 10px;
+  }
+
+  h2 {
+    font-size: 0.9rem;
+    margin: 0 0 0.3rem;
+    padding: 2px 0;
+  }
+
+  select {
+    font-size: 14px;
+    border-radius: 5px;
+    border: 2px solid #9e1142;
+    width: 85%;
+    padding: 0.2rem;
+  }
+
+  .time {
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin: 0 auto;
+  }
+
+  .time small {
+    font-size: 0.4rem;
+    margin-left: 0.5rem;
+  }
+
+  .date {
+    font-size: 10px;
+    opacity: 0.8;
+    color: #36454f;
+  }
+
+  footer {
+    font-size: 10px;
+    max-width: 260px;
+    margin: 7px auto;
+    padding: 3px 3px;
+    border-radius: 30px;
+    text-align: center;
+  }
+
+  .hosting-service {
+    font-size: 10px;
+  }
+
+  .social-media {
+    font-size: 10px;
+  }
+
+  .material-symbols-outlined {
+    font-size: 30px;
+  }
 }
