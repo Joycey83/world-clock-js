@@ -199,7 +199,7 @@ select:focus {
   border: 3px solid #e08b18;
 }
 
-.dark .city-image {
+.dark .city-image:hover {
   box-shadow: -7px 4px 27px rgba(116, 16, 57, 0.4);
 }
 
