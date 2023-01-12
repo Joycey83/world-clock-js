@@ -38,7 +38,7 @@ select:focus {
 /* CSS Styles for classes */
 .clock-container {
   max-width: 700px;
-  margin: 5rem auto 2rem;
+  margin: 0.2rem auto 2rem;
   background: #fff5ee;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
@@ -270,20 +270,20 @@ button.switch-btn {
 footer {
   background: #1b1212;
   color: #fff5ee;
-  font-size: 18px;
-  max-width: 600px;
+  font-size: 16px;
+  max-width: 650px;
   margin: 20px auto;
-  padding: 15px 15px;
+  padding: 10px 10px;
   border-radius: 30px;
   text-align: center;
 }
 
-.github {
+.hosting-service {
   color: #a0325e;
   font-size: 20px;
   text-decoration: none;
 }
 
-.github:hover {
+.hosting-service:hover {
   color: #d2042d;
 }
