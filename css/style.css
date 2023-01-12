@@ -217,6 +217,8 @@ select:focus {
   position: relative;
   height: 600px;
   width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
   overflow: hidden;
 }
 
