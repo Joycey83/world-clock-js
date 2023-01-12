@@ -198,9 +198,16 @@ select:focus {
 .dark select:focus {
   border: 3px solid #e08b18;
 }
-
+.dark .city-image {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  transition: all 200ms ease-in-out;
+  transition: transform 0.5s ease-in-out, filter 3000ms ease-in-out;
+}
 .dark .city-image:hover {
-  box-shadow: -7px 4px 27px rgba(255, 0, 0, 0.4);
+  filter: none;
+  -webkit-filter: grayscale(0);
+  transform: scale(1.1);
 }
 
 /* Generate random images for selected Cities CSS Style */
