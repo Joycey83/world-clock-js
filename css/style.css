@@ -280,10 +280,20 @@ footer {
 
 .hosting-service {
   color: #a0325e;
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
 }
 
 .hosting-service:hover {
+  color: #d2042d;
+}
+
+.social-media {
+  color: #a0325e;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.social-media:hover {
   color: #d2042d;
 }
