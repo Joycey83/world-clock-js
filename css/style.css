@@ -199,6 +199,10 @@ select:focus {
   border: 3px solid #e08b18;
 }
 
+.dark .city-image {
+  box-shadow: -7px 4px 27px rgba(116, 16, 57, 0.4);
+}
+
 /* Generate random images for selected Cities CSS Style */
 
 .city-image {
