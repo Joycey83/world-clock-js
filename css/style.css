@@ -299,7 +299,42 @@ footer {
 }
 
 /* Media Queries */
+@media (max-width: 360px) {
+  .mix-color {
+    position: relative;
+    width: 110%;
+    height: 250px;
+  }
 
+  #color {
+    /* position: absolute; */
+    /* top: 0; */
+    width: 110%;
+    height: 250px;
+  }
+
+  button.switch-btn {
+    position: relative;
+    right: -10px;
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .clock-container {
+    position: relative;
+    left: 25px;
+    max-width: 500px;
+    border-radius: 5px;
+    padding: 1rem 1rem;
+  }
+
+  .theme-btn {
+    top: -10px;
+    right: 10px;
+  }
+}
+
+/******* mobile devices Nokia ***********/
 @media (max-width: 320px) {
   .mix-color {
     position: relative;
