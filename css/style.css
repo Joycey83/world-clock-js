@@ -302,6 +302,12 @@ footer {
 /************************************************************************************/
 /******** Media Queries for Most Popular Mobile and tablet devices *******/
 @media (max-width: 768px) {
+  .clock-container {
+    position: relative;
+    left: 0;
+    margin: 20px;
+    overflow: hidden;
+  }
 }
 /***** Mobile devices e.g: Iphone XR *****/
 @media (max-width: 414px) {
