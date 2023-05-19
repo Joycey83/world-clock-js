@@ -32,5 +32,6 @@ My approach for designing this World Clock application was to create it so that 
 
 - Google Fonts One: [Lilita One](https://fonts.google.com/specimen/Lilita+One?query=Lilita)
 - Google Fonts Two: [Orbitron](https://fonts.google.com/specimen/Orbitron?query=Orbitron)
-- Google Material Icon
-- Moment.js
+- Google Material Icon One: [Lightbulb](https://fonts.google.com/icons?icon.set=Material+Icons&icon.query=lightbulb)
+- Google Material Icon Two: [Dark mode](https://fonts.google.com/icons?icon.set=Material+Icons&icon.query=dark)
+- [Moment.js](https://momentjs.com/)
