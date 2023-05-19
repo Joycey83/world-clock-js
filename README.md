@@ -30,7 +30,7 @@ My approach for designing this World Clock application was to create it so that 
 
 # Frameworks & Programs Used
 
-- Google Fonts One:
-- Google Fonts Two:
+- Google Fonts One: [Lilita One](https://fonts.google.com/specimen/Lilita+One?query=Lilita)
+- Google Fonts Two: [Orbitron](https://fonts.google.com/specimen/Orbitron?query=Orbitron)
 - Google Material Icon
 - Moment.js
