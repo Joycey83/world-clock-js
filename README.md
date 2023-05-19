@@ -14,7 +14,7 @@ My approach for designing this World Clock application was to create it so that 
 
 ## Features
 
-- Select over date and time zones from over 40+ countries
+- Select date and time zones from over 40+ countries
 - Application has light and dark mode setting
 - Theme color switcher for background
-- Change Hero Image color
+- Option to change color on Hero Image
