@@ -4,7 +4,7 @@ The World Clock Application was created for the Shecodes Plus Add-on Project
 
 ## Introduction
 
-A simple and reliable clock application with customizable color themes, dark and light mode and the ability to display the date and time from various time zones.
+A simple and reliable clock application with customizable color themes, dark and light mode and the ability to display the date and time of each city from various time zones.
 
 [View the live project here.](https://worldclockjs123.netlify.app/)
 
@@ -18,3 +18,12 @@ My approach for designing this World Clock application was to create it so that 
 - Application has light and dark mode setting
 - Theme color switcher for background
 - Option to change color on Hero Image
+
+## Usage
+
+- Visit https://worldclockjs123.netlify.app/
+- Scroll through the dropdown box and choose a city.
+- Click on your choosen city.
+- View the date and time of your chosen city.
+- Click on the Theme color switcher (if you want to).
+- Click on the light or dark mode depending on your enviroment.
