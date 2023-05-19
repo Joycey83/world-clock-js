@@ -32,5 +32,5 @@ My approach for designing this World Clock application was to create it so that 
 
 - Google Fonts One:
 - Google Fonts Two:
-- Google Material Icon:
+- Google Material Icon
 - Moment.js
