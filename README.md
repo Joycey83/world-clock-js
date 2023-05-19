@@ -27,3 +27,10 @@ My approach for designing this World Clock application was to create it so that 
 - View the date and time of your chosen city.
 - Click on the Theme color switcher (if you want to).
 - Click on the light or dark mode depending on your enviroment.
+
+# Frameworks & Programs Used
+
+- Google Fonts One:
+- Google Fonts Two:
+- Google Material Icon:
+- Moment.js
