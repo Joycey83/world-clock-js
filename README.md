@@ -75,3 +75,9 @@ You will be redirected to the Site overview page where you can check for the dep
 You can also check that the repository has been cloned properly by selecting GitHub to navigate to your new repository on GitHub.
 
 ![netlify deployment2.](/images/github-1.png)
+
+4.Once the deploy has finished building, you should get a production URL where you can access the website.
+
+![netlify production url.](/images/github-3.png)
+
+5.You can choose to customize the URL by changing the site’s name in the Netlify UI at Site settings > Site details > Site information.
