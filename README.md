@@ -35,3 +35,12 @@ My approach for designing this World Clock application was to create it so that 
 - Google Material Icon One: [Lightbulb](https://fonts.google.com/icons?icon.set=Material+Icons&icon.query=lightbulb)
 - Google Material Icon Two: [Dark mode](https://fonts.google.com/icons?icon.set=Material+Icons&icon.query=dark)
 - [Moment.js](https://momentjs.com/)
+
+# Running Locally
+
+## Live server
+
+1.You will need node.js and npm. You should probably install this globally.
+2.run the following command in your terminal:
+
+npm install -g live-server
