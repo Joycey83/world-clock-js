@@ -41,6 +41,7 @@ My approach for designing this World Clock application was to create it so that 
 ## Live server
 
 1.You will need node.js and npm. You should probably install this globally.
+
 2.run the following command in your terminal:
 
 npm install -g live-server
