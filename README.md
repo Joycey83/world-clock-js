@@ -45,6 +45,6 @@ My approach for designing this World Clock application was to create it so that 
 
 npm install -g live-server
 
-3. In your project directory issue the command live-server
+3.In your project directory issue the command live-server
 
-4. This will automatically launch the default browser. When you make a change to any file, the browser will reload the page - unless it was a CSS file in which case the changes are applied without a reload.
+4.This will automatically launch the default browser. When you make a change to any file, the browser will reload the page - unless it was a CSS file in which case the changes are applied without a reload.
