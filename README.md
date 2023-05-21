@@ -53,3 +53,9 @@ npm install -g live-server
 # Deployment
 
 ## Deploy a project to Netlify
+
+This site was deployed to Netlify. Plese follow these steps to deploy your site:
+
+One way to get started deploying on Netlify is to use a Deploy to Netlify button to add a site.
+
+1.Select the Deploy to Netlify button.
